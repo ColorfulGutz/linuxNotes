@@ -1,4 +1,4 @@
-This repository documents my journey through Linux labs and is a way for me to write my notes other than google docs
+This repository documents my journey through Linux labs and is a way for me to write my notes other than google docs.
 Each folder contains general knowledge and are typically put into my own words for later reference
 
 ## How I learn
