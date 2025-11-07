@@ -11,27 +11,27 @@ In this interactive environment, certain keys, when pressed, enact commands.
 
 Helfpul flags:
 
-m - Show the help menu (lists all commands).
-p - Print the current partition table.
-v - Verify the partition table for errors.
-u - Change the display units (sectors/cylinders).
-i -Show detailed information about a specific partition (newer fdisk versions).
+- m - Show the help menu (lists all commands).
+- p - Print the current partition table.
+- v - Verify the partition table for errors.
+- u - Change the display units (sectors/cylinders).
+- i -Show detailed information about a specific partition (newer fdisk versions).
 
 Flags for creating and deleting partitions:
 
-n - Create a new partition. Prompts for partition type (primary/logical) and size.
-d - Delete a partition. Prompts for which one.
-t - Change a partition’s type (e.g., swap, Linux, EFI).
-a - Toggle the bootable flag on a partition.
-x -Extra functionality (advanced mode) — can adjust geometry, expert settings, etc.
+- n - Create a new partition. Prompts for partition type (primary/logical) and size.
+- d - Delete a partition. Prompts for which one.
+- t - Change a partition’s type (e.g., swap, Linux, EFI).
+- a - Toggle the bootable flag on a partition.
+- x -Extra functionality (advanced mode) — can adjust geometry, expert settings, etc.
 
 Flags for writing or quitting:
 
-w - Write changes to disk and exit. (Destructive!)
-q - Quit without saving changes.
-F - List free (unpartitioned) space (newer versions).
-g - Create a new GPT partition table (wipes existing).
-o - Create a new DOS/MBR partition table (wipes existing).-
+- w - Write changes to disk and exit. (Destructive!)
+- q - Quit without saving changes.
+- F - List free (unpartitioned) space (newer versions).
+- g - Create a new GPT partition table (wipes existing).
+- o - Create a new DOS/MBR partition table (wipes existing).-
 
 
 `sudo partprobe` asks the kernel to reread the partition table which is normal when dealing with loop devices and to ensure that it recognises the new partition you have made.
