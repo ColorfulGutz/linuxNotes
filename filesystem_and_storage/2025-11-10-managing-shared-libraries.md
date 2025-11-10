@@ -30,4 +30,4 @@ ldconfig
 `ldd` reveals what a program depends on. A binary is a compiled file, an executable is one that can run. Executables come in specific formats. `ldd` is crucial for troubleshooting and auditing. Security Warning, Dont run ldd on untrusted binaries. You can find library files with find and manage libraries with `ldconfig`. `ldd` is like a nutrition label for programs, binary is the ingredient mixture. Executable is a cooked meal ready to eat, and ELF/Shebang is a blueprint or interpreter note. Treat `ldd` as tasting mystery soup and find as a flashligh in a garage. `ldconfig` is like a refresh for your contacts list.
 
 ## Reflection
-Really interesting the security risk that comes with ldd and how it executes binary code in a special mode which can be exploited by a malicious program.
+> Really interesting the security risk that comes with ldd and how it executes binary code in a special mode which can be exploited by a malicious program.
